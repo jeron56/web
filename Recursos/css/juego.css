@@ -1,0 +1,85 @@
+
+body {
+  font-family: Arial, sans-serif;
+  width: 940px;
+  margin: 5% auto;
+  min-height: 100%;
+  background-image: url(../images/PikaGirl.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+ul {
+  padding-left: 0;
+  list-style:none;
+}
+li {
+  padding: 5px 0;
+}
+li::before {
+  content: "• ";
+  color: #EC6778;
+}
+
+.col-40, .col-60 {
+  display: table-cell;
+  margin: 0;
+  vertical-align: top;
+}
+.col-40 {
+  background: rgba(255,255,0,0.2);
+  padding: 30px;
+  color: #000;
+}
+
+#juego div {
+
+  text-align: center;
+  animation: fadein 4s;/* Animacion/Tiempo Imagen aparece */
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.pieza
+{
+  width: 33%;
+  height: 33%;
+  float:left;
+
+}
+#juego
+{
+  width: 600px;
+  height: 600px;
+  background:rgba(255,255,0,0.2);
+}
+.pieza img
+{
+  width: 100%;
+  border:1px grey solid;
+}
+h1{
+  background:none;
+  text-align: center;
+  color: black;
+}
+#instrucciones
+{
+  color:black;
+}
+#gif{
+width: 940px;
+  margin: 5% auto;
+  min-height: 100%;
+  background-image: url(../images/Pika.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#titulo{
+  background: rgba(255,255,0,0.2);
+  padding: 30px;
+  color: #000;
+}
